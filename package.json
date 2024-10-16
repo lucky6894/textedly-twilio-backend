@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./index.js"
   },
   "keywords": [
     "twilio"
@@ -12,7 +12,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
+    "express": "^4.21.0",
     "twilio": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
